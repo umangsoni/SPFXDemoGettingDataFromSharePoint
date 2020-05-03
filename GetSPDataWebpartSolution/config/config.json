@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "get-share-point-data-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getSharePointDataWebpart/GetSharePointDataWebpartWebPart.js",
+          "manifest": "./src/webparts/getSharePointDataWebpart/GetSharePointDataWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GetSharePointDataWebpartWebPartStrings": "lib/webparts/getSharePointDataWebpart/loc/{locale}.js"
+  }
+}
